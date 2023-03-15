@@ -1,0 +1,336 @@
+body{
+    margin: 0px;
+    user-select: none;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+p{
+    margin: 0;
+}
+::-webkit-scrollbar {
+    width: 3px;
+    height: 3px;
+}
+::-webkit-scrollbar-thumb {
+    background: gray ;
+    border-radius: 10px;
+}
+
+
+.rgv{
+    display: grid;
+    width: 100%;
+    height: 100%;
+}
+
+.a{
+    height: 90px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-color: rgb(44, 44, 54);
+    padding: 0px 20px;
+    box-sizing: border-box;
+}
+.aMa{
+    display: none;
+    margin-right: 20px;
+}
+.aa{
+    margin-left: 300px;
+    font-size: 1.3em;
+    font-weight: 600;
+}
+.ab{
+    margin: 0px 15px 0px auto;
+    background-color: rgb(74, 74, 175);
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 0.9em;
+    cursor: pointer;
+}
+.abA{
+    background-color: rgb(74, 74, 175);
+    padding: 10px;
+    width: 30px;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 0.9em;
+    font-weight: 900;
+    cursor: pointer;
+    margin: 0px 20px 0px auto ;
+    display: none;
+}
+.ac{
+    font-size: 1.2em;
+    cursor: not-allowed;
+}
+.b{
+    position: absolute;
+    top: 0;
+    width: 300px;
+    height: 100vh;
+    background-color: rgb(44, 44, 54);
+    box-sizing: border-box;
+    padding: 30px 20px 0px 0px;
+    border-right: thin solid rgb(156, 153, 153);
+}
+.ba{
+    display: flex;
+    align-items: center;
+    padding-left: 25px;
+}
+.baa{
+    width: 30px;
+    margin-right: 10px;
+}
+.baa img{
+    width: 100%;
+}
+.bab{
+    font-size: 1.5em;
+    font-weight: 900;
+}
+.bb{
+    padding: 40px 0px 18px 25px;
+    font-size: 0.9em;
+    letter-spacing: 1px;
+}
+.bc > *{
+    padding: 15px 0px 15px 25px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    cursor: not-allowed;
+}
+.bc > div:first-child{
+    background-color: rgb(74, 74, 175);
+    cursor: pointer;
+}
+
+#root{
+    position: absolute;
+    top: 90px;
+    left: 300px;
+    background-color: rgb(29, 29, 43);
+    width: calc(100% - 300px);
+    height: calc(100% - 90px);
+    overflow: scroll;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.bMc{
+    display: flex;
+    column-gap: 20px;
+}
+.c{
+    min-width: 330px;
+}
+.ca{
+    display: flex;
+    margin-bottom: 20px;
+    align-items: center;
+}
+.caa{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.caatodo{
+    background-color: aqua;
+}
+.caadoing{
+    background-color: rgb(74, 74, 175);
+}
+.caadone{
+    background-color: rgb(91, 173, 91);
+}
+.cab{
+    letter-spacing: 1px;
+}
+.cb{
+    width: 330px;
+    background-color: rgb(44, 44, 54);
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.cbb{
+    font-size: 0.9em;
+    color:rgb(156, 153, 153);
+    margin-top: 5px;
+}
+.cbc{
+    cursor: pointer;
+}
+.cc{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+.cca{
+    padding: 20px;
+    background-color: rgb(44, 44, 54);
+    width: 400px;
+    border-radius: 10px;
+    box-sizing: border-box;
+    position: relative;
+}
+.ccMa{
+    position: absolute;
+    top: -40px;
+    left: 95%;
+    cursor: pointer;
+}
+.ccb{
+    font-weight: 500;
+}
+.ccc{
+    font-size: 0.9em;
+    color:rgb(156, 153, 153);
+    margin-top: 20px;
+    line-height: 1.4;
+}
+.ccd{
+    font-size: 0.9em;
+    font-weight: 500;
+    margin: 30px 0px 15px 0px;
+}
+.cce{
+    display: flex;
+    align-items: center;
+    background-color: rgb(29, 29, 43);
+    padding: 10px;
+    margin-bottom: 7px;
+    font-size: 0.9em;
+    color:rgb(156, 153, 153);
+}
+.cce input{
+    margin-right: 10px;
+}
+.ccf{
+    font-size: 0.9em;
+    font-weight: 500;
+    margin: 30px 0px 10px 0px;
+}
+.ccg select{
+    width: 100%;
+    height: 40px;
+    color:rgb(156, 153, 153);
+    background-color: rgb(44, 44, 54);
+    font-size: 1em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    outline: none;
+}
+.d{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+.da{
+    height: 480px;
+    width: 350px;
+    background-color: rgb(44, 44, 54);
+    padding: 20px;
+    border-radius: 10px;
+    position: relative;
+}
+.daMa{
+    position: absolute;
+    top: -30px;
+    left: 95%;
+    cursor: pointer;
+}
+.daa{
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+.dab label, .dac label, .dad label{
+    font-size: 0.9em;
+    font-weight: 500;
+}
+.da input, .da textarea, .da select{
+    border: thin solid rgb(83, 80, 80);
+    background-color: rgb(44, 44, 54);
+    width: 100%;
+    height: 30px;
+    outline: none;
+    color: white;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    line-height: 1.6;
+}
+.da textarea{
+    height: 100px;
+}
+.dab, .dac{
+    margin-bottom: 20px;
+}
+.dad input{
+    margin: 0px 5px 10px 0px;
+}
+.daf{
+    margin: 20px 0px;
+}
+.dag{
+    background-color: rgb(74, 74, 175);
+    padding: 10px;
+    font-size: 0.9em;
+    font-weight: 500;
+    border-radius: 10px;
+    text-align: center;
+    border: 0;
+    width: 100%;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 700px){
+    .b{
+        width: 250px;
+    }
+    .aa{
+        margin-left: 250px;
+    }
+    #root{
+        left: 250px;
+        width: calc(100% - 250px);
+    }
+}
+
+@media screen and (max-width: 650px){
+    .b, .ab{
+        display: none;
+    }
+    .aa{
+        margin-left: 0px;
+        font-size: 1em;
+    }
+    .abA, .aMa{
+        display: block;
+    }
+    #root{
+        left: 0px;
+        width: 100%;
+    }
+}
